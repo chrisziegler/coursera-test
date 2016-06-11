@@ -3,7 +3,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 /* RESETS */
 * { margin: 0; padding: 0; box-sizing: border-box;}
-html { font-size: 16px; overflow-y: scroll;}
+html { font-size: 16px; }
 body { background:#ffffff; font-size: 62.5%; /* 1em = 10px */; color: #222; font-family: Arial, helvetica, sans-serif;}
 ol, ul { list-style: none; margin: 0;}
 ul li { margin: 0; padding: 0;}
@@ -26,7 +26,7 @@ body {
 }
 .container {
   width: 100%;
-  margin: 0 2em 0 2em;
+  padding: 0 0 0 2em;
 }
 
 .row {
@@ -94,9 +94,16 @@ section  {
     width: 100%;
     padding-right: 2em;
     padding-bottom: 2em;
+
 }
 p  {
   font-size: 1.5em;
+}
+
+p:first-letter  {
+  font-family: 'Tangerine', cursive;
+    font-size: 2.5em;
+    font-weight: bold;
 }
 
 

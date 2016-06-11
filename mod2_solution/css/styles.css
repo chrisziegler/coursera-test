@@ -1,0 +1,140 @@
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  COURSERA MODULE 2 ASSIGNMENT RESPONSIVE FRAMEWORK
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+/* RESETS */
+* { margin: 0; padding: 0; box-sizing: border-box;}
+html { font-size: 16px; overflow-y: scroll;}
+body { background:#ffffff; font-size: 62.5%; /* 1em = 10px */; color: #222; font-family: Arial, helvetica, sans-serif;}
+ol, ul { list-style: none; margin: 0;}
+ul li { margin: 0; padding: 0;}
+h1 { margin-bottom: 10px; color: #111111;}
+a, img { outline: none; border:none; color: #000; font-weight: bold; text-transform: uppercase;}
+p { margin: 0 0 10px; line-height: 1.4em; font-size: 1em;}
+img { display: block; margin-bottom: 10px;}
+aside { font-style: italic; font-size: 0.9em;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+	}
+
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  MAIN LAYOUT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+body {
+  font-family: 'Open-Sans', Arial, sans-serif;
+}
+.container {
+  width: 100%;
+  margin: 0 2em 0 2em;
+}
+
+.row {
+  width: 100%;
+}
+h1  {
+  margin: 1.5em auto .8em auto;
+  font-family: 'Tangerine', cursive;
+  font-size: 4em;
+  text-align: center;
+
+}
+
+
+.item  {
+    border: 1px solid black;
+    position: relative;
+    height: 14em;
+}
+.a {
+  background-color: #FFAAAA;
+}
+.b {
+  background-color: #FFD1AA;
+}
+.c {
+  background-color: #CD88AF;
+}
+.descrip  {
+  font-size: 1.25em;
+  padding-right: 1.5em;
+  position: relative;
+  top: 3.5em;
+  left: 1em;
+}
+
+.beef, .chicken, .sushi  {
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 1px solid #00000;
+  padding: .5em 1.5em .5em 1.5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 6em;
+}
+
+.chicken {
+  background-color: #90305A;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+}
+.beef {
+  background-color: #AA4B39;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+}
+.sushi  {
+  background-color: #602870;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+}
+
+section  {
+    width: 100%;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+p  {
+  font-size: 1.5em;
+}
+
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  MEDIA QUERIES Phone
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+@media (max-width: 767px) {
+  .col-sm-6 {
+   float: left;
+   width: 100%;
+  }
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  MEDIA QUERIES Tablet
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-4 {
+   float: left;
+   width: 50%;
+  }
+
+   .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MEDIA QUERIES Desktop
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+@media (min-width: 992px) {
+  .col-md-4 {
+   float: left;
+   width: 33.33%;
+  }
+
+
+
+
+}

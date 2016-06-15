@@ -133,7 +133,7 @@ p:first-letter  {
 }
 
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-MEDIA QUERIES Desktop
+  MEDIA QUERIES Desktop
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 @media (min-width: 992px) {
   .col-md-4 {

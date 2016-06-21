@@ -1,0 +1,3 @@
+$(function () { // Same as document.addEventListener("DOMContentLoaded"...
+  //stuff will go here
+})
